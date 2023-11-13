@@ -1,0 +1,7 @@
+"""
+NAME         VERLEGENHUKEN, NO
+STATION             1002099999
+LATITUDE                 80.05
+LONGITUDE                16.25
+ELEVATION                    8
+"""
