@@ -1,0 +1,3 @@
+extend-include = ["*.ipynb"]
+ignore = ["F403"]
+

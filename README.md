@@ -1,5 +1,19 @@
 # Squarepoint Training Sessions
 
+Instructor: David Mertz <mertz@kdm.training>
+
+# Setup:
+
+* Instructions Navigate to the regional Jupyter cluster: https://jupyter-ldz.sqpc.sqrpnt.com https://jupyter-nyz.sqpc.sqrpnt.com https://jupyter-sgz.sqpc.sqrpnt.com Use the Terminal to checkout the course material: git clone git@gitlab.sqpc.sqrpnt.com:guilds/python/course_fall23.git
+
+Navigate to the regional Jupyter cluster:
+https://jupyter-ldz.sqpc.sqrpnt.com
+https://jupyter-nyz.sqpc.sqrpnt.com
+https://jupyter-sgz.sqpc.sqrpnt.com
+Use the Terminal to checkout the course material:
+git clone git@gitlab.sqpc.sqrpnt.com:guilds/python/course_fall23.git
+
+
 ## Beginning Session
 
 ### The Python programming language
@@ -36,7 +50,7 @@
 
 * [Shaping and broadcasting](Numpy-4_Shaping_Broadcasting.ipynb)
 * [Join, stack, and split](Numpy-5_Join_Stack_Split.ipynb)
-* [Reading data, records, metadata](Numpy-6-Advanced.ipynb)
+* [Reading data, records, metadata](Numpy-6_Advanced.ipynb)
   
 ### Pandas (part one)
 
