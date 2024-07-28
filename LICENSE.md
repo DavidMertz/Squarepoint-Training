@@ -1,6 +1,6 @@
 # Numeric Computing and Visualization in Python
 
-© 2023 by David Mertz 
+© 2023,2024 by David Mertz 
 Licensed under CC BY-NC-ND 4.0
 
 ---
