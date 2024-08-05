@@ -35,20 +35,22 @@ def make_artists():
     artists = pd.read_csv('data/artists.csv', index_col='id')
     genres = artists.genre.str.split(',', expand=True)
 
-    artists['genre1'] = genres[0]
-    artists['genre2'] = genres[1]
-    artists['genre3'] = genres[2]
+    artists['name'] = artists.name.astype('string')
+    artists['nationality'] = artists.nationality.astype('string')
+    artists['paintings'] = artists.paintings.astype(np.int16)
+    artists['genre1'] = genres[0].astype('string')
+    artists['genre2'] = genres[1].astype('string')
+    artists['genre3'] = genres[2].astype('string')
 
-    artists['years'] = artists.years.str.replace('–', '-')
-    dates = artists.years.str.split(' - ', expand=True)
-    pd.to_datetime(dates[1], format="%Y", errors='ignore')
-
+    years = artists.years.str.replace('–', '-')
+    dates = years.str.split(' - ', expand=True)
     artists['start'] = pd.to_datetime(dates[0], format="%Y", errors='ignore')
     artists['end'] = pd.to_datetime(dates[1], format="%Y", errors='ignore')
     del artists['genre']
     del artists['years']
     del artists['bio']
     del artists['wikipedia']
+
     return artists
 
 artists = make_artists()
