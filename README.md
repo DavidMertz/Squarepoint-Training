@@ -51,7 +51,7 @@ Instructor: David Mertz <mertz@kdm.training>
 ## Matplotlib
 * [Guidelines for effective plots (meaning not decoration)](Matplotlib-1_Guidelines.ipynb)
 * [Plotting basics](Matplotlib-2_Basic.ipynb): [subplots and placement](Matplotlib-3_Subplots.ipynb)
-* [Time series formatting](Matplotlib-4_Timeseries.ipynb)
+* [Time series formatting](Matplotlib-3_Timeseries.ipynb)
 
 ---
 
